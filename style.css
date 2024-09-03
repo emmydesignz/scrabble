@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: orangered;
+    display: flex;
+    color: orangered;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 350px;
+    height: 280px;
+}
+
+h2{
+    font-size: 1rem;
+    color: #000068;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #000068;
+}
+
+.word{
+    text-transform: uppercase;
+    color: #000068;
+    letter-spacing: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.hint{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.time{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+input{
+    padding: 0 10px;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    margin-bottom: 0.7rem;
+    border: 1px solid #000068;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+}
+
+.refresh{
+    height: 40px;
+    padding: 0 20px;
+    width: 48%;
+    border: none;
+    border-radius: 10px;
+    background-color: #000068;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.refresh:hover{
+    border: 3px solid #000068;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.check{
+    height: 40px;
+    padding: 0 20px;
+    width: 48%;
+    border: 3px solid #000068;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 0.9rem;
+}
+
+.check:hover{
+    border: 3px solid #000012;
+    color: white;
+    background-color: #000068;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
